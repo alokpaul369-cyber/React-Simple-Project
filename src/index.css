@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #2c3e50;
+  font-size: 16px;
+  text-align: left;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.header-inner,
+.hero-content,
+.about-inner,
+.footer-inner {
+  max-width: 960px;
+}
+
+.header-inner,
+.footer-inner {
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .header-inner,
+  .footer-inner {
+    flex-direction: column;
+  }
+}

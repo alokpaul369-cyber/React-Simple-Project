@@ -1,0 +1,187 @@
+.header {
+  background-color: #1f3a5f;
+  color: #ffffff;
+  padding: 16px 40px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.logo-mark {
+  background-color: #f4c95d;
+  color: #1f3a5f;
+  padding: 4px 10px;
+  margin: 0 10px 0 0;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav a {
+  color: #ffffff;
+  padding: 8px 14px;
+  margin: 0 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  background-color: #2d5286;
+}
+
+.hero {
+  background-color: #f4efe6;
+  color: #1f3a5f;
+  padding: 96px 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0 0 16px;
+  color: #1f3a5f;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 0 auto 28px;
+  color: #3d4f66;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.hero-button {
+  background-color: #1f3a5f;
+  color: #ffffff;
+  padding: 12px 28px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: #2d5286;
+}
+
+.about {
+  background-color: #ffffff;
+  color: #2c3e50;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.about-inner {
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #eef4f8;
+  border-radius: 16px;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin: 0 0 20px;
+  color: #1f3a5f;
+  text-align: center;
+}
+
+.about p {
+  font-size: 17px;
+  margin: 0 0 16px;
+  color: #3d4f66;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.footer {
+  background-color: #152a45;
+  color: #e8eef5;
+  padding: 32px 40px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.copyright {
+  font-size: 15px;
+  margin: 0;
+  color: #e8eef5;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-info p {
+  font-size: 14px;
+  margin: 0 0 6px;
+  color: #c5d2e0;
+}
+
+@media (max-width: 700px) {
+  .header,
+  .about,
+  .footer {
+    padding: 24px 20px;
+  }
+
+  .hero {
+    padding: 64px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .header-inner,
+  .footer-inner,
+  .nav {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav {
+    margin: 12px 0 0;
+  }
+
+  .footer-info {
+    text-align: center;
+    margin: 16px 0 0;
+  }
+}
