@@ -1,16 +1,25 @@
-# React + Vite
+# ⚛️ React Simple Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple multi-section website built with **React and Vite**, practice for components and layout.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧩 Components
 
-## React Compiler
+- `Header`: navigation bar
+- `Hero`: landing section
+- `About`: about section
+- `Footer`: page footer
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the Oxlint configuration
+```bash
+git clone https://github.com/alokpaul369-cyber/React-Simple-Project.git
+cd React-Simple-Project
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+<p align="center">Made with ❤️ by <a href="https://github.com/alokpaul369-cyber">Alok Paul</a></p>
